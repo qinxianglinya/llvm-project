@@ -28,7 +28,6 @@ def main() {
   # var f = multiply_transpose(transpose(a), c);
 }
 
-#test
 
 
 
