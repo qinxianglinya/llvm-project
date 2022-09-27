@@ -48,6 +48,7 @@ std::unique_ptr<toy::ModuleAST> parseInputFile(llvm::StringRef filename) {
 }
 
 int main(int argc, char **argv) {
+  // main function
   cl::ParseCommandLineOptions(argc, argv, "toy compiler\n");
 
   auto moduleAST = parseInputFile(inputFilename);
